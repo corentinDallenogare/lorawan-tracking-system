@@ -1,0 +1,18 @@
+body,
+h1,
+h2,
+footer {
+    --grey: gray;
+    --blue: #0d47a1;
+    --blue1: #2196f3;
+    --blue2: #1976d2;
+    --red: #b8030a;
+    --copy: #232323;
+}
+
+main {
+    --rgba-box-start: rgba(0, 0, 0, 0.12);
+    --rgba-box-stop: rgba(0, 0, 0, 0.24);
+    --background: #bdbdbd;
+    --font: #424242;
+}

@@ -7,15 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Constantin Mirica, Darryl Bilongo, Louis Boucquet, Melvin Campos">
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
-        integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-        crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="" />
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="colors.css">
 
-    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
-        integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
-        crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
 
     <script src="/main.js"></script>
 
@@ -23,8 +20,11 @@
 </head>
 
 <body>
+    <h1>Wild animal tracking Dashbboard</h1>
+    <p>Welcome to your tracking system Dashboard.<br>With it, you can track anything using our IoT LoRaWAN device.</p>
+    <p>This system is made in purpose to locate all tracked animals, know their position and help you ensure an easier way to track wild animals.</p>
     <main>
-        <h1>Wild animal tracking DashbBoard</h1>
+        <h2>Map and GPS information</h2>
         <section class="content">
             <div id="map"></div>
             <div id="data">
@@ -35,18 +35,16 @@
                         <th>Altitude</th>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th>Latitude</th>
-                            <th>Longitude</th>
-                            <th>Altitude</th>
-                        </tr>
                     </tbody>
                 </table>
             </div>
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        2019 &copy; EPHEC
+        <br>Made by Darryl Bilongo, Louis Boucquet, Melvin Campos Casares, Constantin Mirica
+    </footer>
 </body>
 
 </html>
