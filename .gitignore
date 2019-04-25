@@ -6,3 +6,4 @@
 thumbs.db
 *.DS_Store
 
+api-server/node_modules
