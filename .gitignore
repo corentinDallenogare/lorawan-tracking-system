@@ -1,0 +1,8 @@
+# Git ignore of LoRaWAN Tracking System Project
+# See repository at https://github.com/melvinmajor/lorawan-tracking-system
+# ========================================================================
+
+# Documents and useless files
+thumbs.db
+*.DS_Store
+
