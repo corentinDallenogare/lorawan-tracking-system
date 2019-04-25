@@ -1,0 +1,13 @@
+#map {
+    height: 30rem;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+}
+
+h1 {
+    color: #313391;
+    text-shadow: 0 3px 6px var(--rgba-white-start), 0 3px 6px var(--rgba-white-stop);
+}
