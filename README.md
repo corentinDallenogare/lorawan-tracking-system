@@ -1,6 +1,8 @@
 > # lorawan-tracking-system
 >
-> Wild animals tracking - AN IoT solution
+> ##### Wild animals tracking - An IoT solution
+>
+> One of the two selected finalist of the 5th International BusITWeek "Wild Animals Tracking - An IoT solution".
 
 # About the project
 
