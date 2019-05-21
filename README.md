@@ -35,6 +35,7 @@ Because we used a free account, the data is sent once an hour.
 
 We made a webpage in order to see the content in a more conveniently manner.
 A map and the complete coordinates are showing up on it.
+The website can be seen (with _"demo GPS info"_ stored (more info can be added directly by the LoRaWAN Tracking System) here: <https://ephec.herokuapp.com/>
 
 # Further implementation
 
